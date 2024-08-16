@@ -19,7 +19,7 @@ function addTarefa() {
             ${valorInput}
         </div>
         <div class="item-botao">
-            <button onclick="deletar(${contador})" class="delete"><i class="mdi mdi-delete"></i> Deletar</button>
+            <button onclick="deletar(${contador})" class="delete"><i class="mdi mdi-delete" ></i></button>
         </div>
     </div>`;
 
