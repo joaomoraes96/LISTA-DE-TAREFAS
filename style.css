@@ -24,7 +24,7 @@
   }
   
   input {
-    height: 60px;
+    height: 120px;
     font-size: 2rem;
     width: 80%;
     padding-left: 10%;
@@ -37,7 +37,7 @@
     color: white;
     font-weight: bold;
     border: none;
-    height: 60px;
+    height: 120px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
@@ -57,7 +57,7 @@
     justify-content: center;
     align-items: center;
     background: white;
-    height: 50px;
+    height: 80px;
     width: 100%;
     box-shadow: 0 0 20px #ccc;
     margin-bottom: 2%;
@@ -74,8 +74,9 @@
   }
   
   .item-icone {
-    flex: 2%;
+    flex: 20%;
     /* border:1px solid orangered;  */
+    text-align: center;
     font-size: 2rem;
   }
   
@@ -96,7 +97,7 @@
     color: white;
     border: none;
     padding: 10px;
-    height: 50px;
+    height: 80px;
     width: 100%;
     cursor: pointer;
   }
@@ -112,17 +113,17 @@
     align-items: center;
     position: fixed;
     bottom: 0;
-    background: rgb(0, 0, 0);
-    height: 30px;
+    background: black;
+    height: 40px;
     width: 100%;
-}
+  }
   
   footer a {
     color: white;
   }
   
   footer i {
-    color: white;
+    color: rgba(238, 147, 10, 0.637);
     font-size: 22px;
   }
   
