@@ -19,7 +19,7 @@ function addTarefa() {
             ${valorInput}
         </div>
         <div class="item-botao">
-            <button onclick="deletar(${contador})" class="delete"><i class="mdi mdi-delete" ></i></button>
+            <button onclick="deletar(${contador})" class="delete"><i class="mdi mdi-delete"></i> Deletar</button>
         </div>
     </div>`;
 
@@ -31,8 +31,6 @@ function addTarefa() {
     input.focus();
   }
 }
-
-
 
 function deletar(id) {
   var tarefa = document.getElementById(id);
@@ -63,11 +61,8 @@ function marcarTarefa(id) {
 
 input.addEventListener("keyup", function (event) {
   //SE TECLOU ENTER (13)
- 
   if (event.keyCode === 13) {
     event.preventDefault();
     btnAdd.click();
   }
 });
-
-
