@@ -24,8 +24,8 @@ header{
 }
 
 input{
-    height: 120px;
-    font-size: 2rem;
+    height: 40px;
+    font-size: 1rem;
     width: 80%;
     padding-left: 10%;
 }
@@ -36,7 +36,7 @@ button.add{
     color: white;
     font-weight: bold;
     border: none;
-    height: 120px;
+    height: 40px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 
