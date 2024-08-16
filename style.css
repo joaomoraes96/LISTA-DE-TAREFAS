@@ -51,6 +51,11 @@ main{
     padding-top: 40px;
 }
 
+footer{
+   text-align: center;
+   
+}
+
 .item{
     display: flex;
     flex-flow: row wrap;
