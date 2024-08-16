@@ -92,7 +92,7 @@ footer{
     
 }
 .item-nome{
-    flex: 10%;
+    flex: 1%;
     /* border: 1px solid deeppink;*/
     font-size: 20px;
 }
